@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bk1cuyx8oc0lt"]
+
+[ext_resource type="Script" path="res://world1.gd" id="1_cn12j"]
+
+[node name="Fase1" type="Node2D"]
+script = ExtResource("1_cn12j")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
